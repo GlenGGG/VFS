@@ -28,6 +28,10 @@ Run make.
 ```
 make
 ```
+Now create a file called list, and write all the name of your resources into it. You can do it with a simple command:
+```
+ls the-path-to-your-resources > list
+```
 
 Run the webserver.
 
