@@ -1,0 +1,46 @@
+# VFS
+
+A multi-thread webserver with virtual file system optimized for small file retrieval.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+You need to have gcc and make in your PATH.
+```
+
+### Installing
+
+Clone this repository.
+
+```
+git clone https://github.com/GlenGGG/VFS.git
+cd VFS
+```
+
+Run make.
+
+```
+make
+```
+
+Run the webserver.
+
+```
+./webserver port path-to-your-website-root
+```
+
+Then, you should be able to see the webserver working on 127.0.0.1:port .
+
+## Running the tests
+
+You can test this webserver's performance through http_load.
+
+```
+http_load -parallel [number of concurrent connections] -seconds [time lenght of load test]
+```
